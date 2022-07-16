@@ -19,19 +19,19 @@ pip3 install -r requirements.txt
 ## Results (AUC)
 |method|  FLOPs    |   LaSOT | TNL2K | TrackingNet | GOT-10k_Test | UAV123  | model|
 |:------:|:-----:|:-----:|:-----:|:------:|:------:|:------:|:------:|
-|SimTrack| 25.0G | 69.3 | 54.8 | 82.3 | 70.6 | 69.8| [Sim-B/16](https://drive.google.com/file/d/1ryxn9TEwnoDTTQxv5JMyWpvU2OuOMLqL/view?usp=sharing)|
+|SimTrack| 25.0G | 69.3 | 54.8 | 82.3 | 70.6 | 69.8| [Sim-B/16](https://drive.google.com/file/d/19iSJi14yfJsi_XN5bfKdkBPUHgFzagg9/view?usp=sharing)|
 
-
-## Training
-```
-python -m torch.distributed.launch --nproc_per_node=4 --use_env main.py --model glit_tiny_patch16_224 --clip-grad 1.0 --batch-size 256 --data-path /path/to/imagenet --output_dir /path/to/save
-```
 
 ## Evaluation
-Download the model [Glit_Tiny](https://drive.google.com/file/d/1ryxn9TEwnoDTTQxv5JMyWpvU2OuOMLqL/view?usp=sharing)
+Download the model [Sim-B/16](https://drive.google.com/file/d/19iSJi14yfJsi_XN5bfKdkBPUHgFzagg9/view?usp=sharing)
 ```
-python main.py --eval --resume glit_tiny.pth.tar --data-path /path/to/imagenet
+python tracking/test.py simtrack baseline --dataset got10k_test --threads 32
+```
 
+## Training
+If you are in a hurry, you can try to train a model before our final version. I think there is no tricky bug.
+```
+python tracking/train.py --script simtrack --config baseline_got10k_only --save_dir . --mode multiple --nproc_per_node 8
 ```
 
 ## Thanks
