@@ -1,7 +1,12 @@
 SimTrack
 =========================================
 Official Code for [Backbone is All Your Need: A Simplified Architecture for Visual Object Tracking](https://arxiv.org/abs/2107.02960) accepted by ECCV 2022.
-
+This is the first inference version of our code.
+We initially implement our method in a similar code pipeline as [Pysot] (https://github.com/STVIR/pysot), which is adopted in the Sensetime company. 
+There are several private distribution and data loading methods which can not been published.
+Therefore, I changed my method to [STARK](https://github.com/researchmm/Stark) pipeline.
+It will takes some time to fully convert the code from [Pysot] (https://github.com/STVIR/pysot) to [STARK](https://github.com/researchmm/Stark).
+We will first release the testing code. The training code will come as soon as possible. Thank you!
 
 ## Requirements
 - torch==1.8.1
