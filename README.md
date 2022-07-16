@@ -5,7 +5,7 @@ This is the first version of our code.
 We initially implement SimTrack in [Pysot] (https://github.com/STVIR/pysot), which is adopted by the Sensetime company. 
 There are several private distribution and data loading codes which can not be published.
 Therefore, I am changing the pipeline to the public reposity [STARK](https://github.com/researchmm/Stark).
-It will take some time to fully convert the code from [Pysot] (https://github.com/STVIR/pysot) to [STARK](https://github.com/researchmm/Stark).
+It will take some time to fully convert the code from [Pysot](https://github.com/STVIR/pysot) to [STARK](https://github.com/researchmm/Stark).
 For now, we first release the testing code. The training code will come as soon as possible. Thank you for your understanding!
 
 ## Requirements
