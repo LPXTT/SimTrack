@@ -13,8 +13,6 @@ For now, we first release the testing code. The training code will come as soon 
 - torchvision==0.9.0
 - timm==0.5.4
 
-The requirements.txt file lists other Python libraries that this project depends on, and they will be installed using:
-pip3 install -r requirements.txt
 
 ## Results (AUC)
 |method|  FLOPs    |   LaSOT | TNL2K | TrackingNet | GOT-10k_Test | UAV123  | model|
