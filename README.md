@@ -30,6 +30,6 @@ python main.py --eval --resume glit_tiny.pth.tar --data-path /path/to/imagenet
 ```
 
 ## Thanks
-This implementation is based on [DeiT](https://github.com/facebookresearch/deit). Please ref to their reposity for more details.
+This implementation is based on [STARK](https://github.com/researchmm/Stark). Please ref to their reposity for more details.
 
 ## Citation
