@@ -1,5 +1,4 @@
 # SimTrack
-LiT: Neural Architecture Search for Global and Local Image Transformer
 =========================================
 Official Code for [Backbone is All Your Need: A Simplified Architecture for Visual Object Tracking](https://arxiv.org/abs/2107.02960) accepted by ECCV 2022.
 
