@@ -6,7 +6,7 @@ We initially implement SimTrack in [Pysot](https://github.com/STVIR/pysot), whic
 There are several private distribution and data loading codes which can not be published.
 Therefore, I am changing the pipeline to the public reposity [STARK](https://github.com/researchmm/Stark).
 It will take some time to fully convert the code from [Pysot](https://github.com/STVIR/pysot) to [STARK](https://github.com/researchmm/Stark).
-For now, we first release the testing code. The training code will come as soon as possible. Thank you for your understanding!
+For now, we first release the testing code. The training code will come as soon as possible. Thanks for your understanding!
 
 ## Requirements
 - torch==1.8.1
@@ -38,3 +38,11 @@ python tracking/train.py --script simtrack --config baseline_got10k_only --save_
 This implementation is based on [STARK](https://github.com/researchmm/Stark). Please ref to their reposity for more details.
 
 ## Citation
+If you find that this project helps your research, please consider citing our paper:
+```
+@article{chen2022backbone,
+  title={Backbone is All Your Need: A Simplified Architecture for Visual Object Tracking},
+  author={Chen, Boyu and Li, Peixia and Bai, Lei and Qiao, Lei and Shen, Qiuhong and Li, Bo and Gan, Weihao and Wu, Wei and Ouyang, Wanli},
+  journal={arXiv preprint arXiv:2203.05328},
+  year={2022}
+}
