@@ -23,7 +23,7 @@ pip3 install -r requirements.txt
 
 
 ## Evaluation
-Download the model [Sim-B/16](https://drive.google.com/file/d/19iSJi14yfJsi_XN5bfKdkBPUHgFzagg9/view?usp=sharing)
+Download the model [Sim-B/16](https://drive.google.com/file/d/19iSJi14yfJsi_XN5bfKdkBPUHgFzagg9/view?usp=sharing). Add the model path to https://github.com/LPXTT/SimTrack/blob/a238932fd0cba9aa4a6fcdb590470d5882e5b0b4/lib/test/tracker/simtrack.py#L19
 ```
 python tracking/test.py simtrack baseline --dataset got10k_test --threads 32
 ```
