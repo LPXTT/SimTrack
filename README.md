@@ -13,7 +13,6 @@ pip3 install -r requirements.txt
 
 ## Results (AUC)
 |method|  FLOPs    |   LaSOT | TNL2K | TrackingNet | GOT-10k_Test | UAV123  | model|
-|:------:|:----------:|:----------:|:----------:|:----------:|
 |SimTrack| 25.0G | 69.3 | 54.8 | 82.3 | 70.6 | 69.8| [Sim-B/16](https://drive.google.com/file/d/1ryxn9TEwnoDTTQxv5JMyWpvU2OuOMLqL/view?usp=sharing)|
 
 
