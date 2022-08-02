@@ -18,7 +18,6 @@ For now, we first release the testing code. The training code will come as soon 
 |method|  FLOPs    |   LaSOT | TNL2K | TrackingNet | GOT-10k_Test | UAV123  | model|
 |:------:|:-----:|:-----:|:-----:|:------:|:------:|:------:|:------:|
 |SimTrack| 25.0G | 69.3 | 54.8 | 82.3 | 70.6 | 69.8| [Sim-B/16](https://drive.google.com/file/d/19iSJi14yfJsi_XN5bfKdkBPUHgFzagg9/view?usp=sharing)|
-|:------:|:-----:|:-----:|:-----:|:------:|:------:|:------:|:------:|
 |Raw Results| - | [LaSOT](https://drive.google.com/file/d/1bVohxZGlpdTmEwIm0IRB9vbM6hIZOKpy/view?usp=sharing) | TNL2K | [TrackingNet](https://drive.google.com/file/d/1nnQqXN4BkUd6CORieHmGuTKSvo0rAZAZ/view?usp=sharing) | [GOT-10k_Test](https://drive.google.com/file/d/1G5HgEUUkx8EWglvTFpZrJ5plKDqHCF9X/view?usp=sharing) | [UAV123](https://drive.google.com/file/d/1U6SnBZLMqgPqFv-Gg0TvP6dtserjo5RA/view?usp=sharing) | - |
 
 
