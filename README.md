@@ -16,6 +16,8 @@ Official Code for [Backbone is All Your Need: A Simplified Architecture for Visu
 |SimTrack| 25.0G | 69.3 | 54.8 | 82.3 | 70.6 | 69.8| [Sim-B/16](https://drive.google.com/file/d/19iSJi14yfJsi_XN5bfKdkBPUHgFzagg9/view?usp=sharing)| [MAE-B/16](https://drive.google.com/file/d/1TPir2JSrWuV7ZEA92oV1vvjjXn0KCRrx/view?usp=share_link)|
 |Raw Results| - | [LaSOT](https://drive.google.com/file/d/1bVohxZGlpdTmEwIm0IRB9vbM6hIZOKpy/view?usp=sharing) | [TNL2K](https://drive.google.com/file/d/1B9Y3QDBWL16ku5BpavharMdfqVQvofhF/view?usp=sharing) | [TrackingNet](https://drive.google.com/file/d/1nnQqXN4BkUd6CORieHmGuTKSvo0rAZAZ/view?usp=sharing) | [GOT-10k_Test](https://drive.google.com/file/d/1G5HgEUUkx8EWglvTFpZrJ5plKDqHCF9X/view?usp=sharing) | [UAV123](https://drive.google.com/file/d/1U6SnBZLMqgPqFv-Gg0TvP6dtserjo5RA/view?usp=sharing) | - | -|
 
+It should be noted that the above pretrained model is trained under [PYSOT codebase](https://github.com/STVIR/pysot). If you want to load the model in current pipeline, you may need to change the parameter name. Or you can train a new model with the current pipeline.
+
 
 ## Evaluation
 Download the model [Sim-B/16](https://drive.google.com/file/d/19iSJi14yfJsi_XN5bfKdkBPUHgFzagg9/view?usp=sharing). Add the model path to https://github.com/LPXTT/SimTrack/blob/a238932fd0cba9aa4a6fcdb590470d5882e5b0b4/lib/test/tracker/simtrack.py#L19
