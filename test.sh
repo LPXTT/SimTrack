@@ -4,5 +4,5 @@
 #MASTER_ADDR=${MASTER_ADDR:-"127.0.0.1"}
 PYTHONPATH="$(dirname $0)":$PYTHONPATH
 
-srun -p ai4science -n1 --gres=gpu:8 --ntasks-per-node=1 --cpus-per-task=5 --quotatype spot \
+#srun -p ai4science -n1 --gres=gpu:8 --ntasks-per-node=1 --cpus-per-task=5 --quotatype spot \
 python tracking/test.py simtrack baseline --dataset lasot --threads 32
