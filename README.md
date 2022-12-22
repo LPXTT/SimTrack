@@ -11,10 +11,10 @@ Official Code for [Backbone is All Your Need: A Simplified Architecture for Visu
 
 
 ## Results (AUC)
-|method|  FLOPs    |   LaSOT | TNL2K | TrackingNet | GOT-10k_Test | UAV123  | model|
-|:------:|:-----:|:-----:|:-----:|:------:|:------:|:------:|:------:|
-|SimTrack| 25.0G | 69.3 | 54.8 | 82.3 | 70.6 | 69.8| [Sim-B/16](https://drive.google.com/file/d/19iSJi14yfJsi_XN5bfKdkBPUHgFzagg9/view?usp=sharing)|
-|Raw Results| - | [LaSOT](https://drive.google.com/file/d/1bVohxZGlpdTmEwIm0IRB9vbM6hIZOKpy/view?usp=sharing) | [TNL2K](https://drive.google.com/file/d/1B9Y3QDBWL16ku5BpavharMdfqVQvofhF/view?usp=sharing) | [TrackingNet](https://drive.google.com/file/d/1nnQqXN4BkUd6CORieHmGuTKSvo0rAZAZ/view?usp=sharing) | [GOT-10k_Test](https://drive.google.com/file/d/1G5HgEUUkx8EWglvTFpZrJ5plKDqHCF9X/view?usp=sharing) | [UAV123](https://drive.google.com/file/d/1U6SnBZLMqgPqFv-Gg0TvP6dtserjo5RA/view?usp=sharing) | - |
+|method|  FLOPs    |   LaSOT | TNL2K | TrackingNet | GOT-10k_Test | UAV123  | model-clip| model-mae|
+|:------:|:-----:|:-----:|:-----:|:------:|:------:|:------:|:------:|:------:|
+|SimTrack| 25.0G | 69.3 | 54.8 | 82.3 | 70.6 | 69.8| [Sim-B/16](https://drive.google.com/file/d/19iSJi14yfJsi_XN5bfKdkBPUHgFzagg9/view?usp=sharing)| [MAE-B/16](https://drive.google.com/file/d/1TPir2JSrWuV7ZEA92oV1vvjjXn0KCRrx/view?usp=share_link)|
+|Raw Results| - | [LaSOT](https://drive.google.com/file/d/1bVohxZGlpdTmEwIm0IRB9vbM6hIZOKpy/view?usp=sharing) | [TNL2K](https://drive.google.com/file/d/1B9Y3QDBWL16ku5BpavharMdfqVQvofhF/view?usp=sharing) | [TrackingNet](https://drive.google.com/file/d/1nnQqXN4BkUd6CORieHmGuTKSvo0rAZAZ/view?usp=sharing) | [GOT-10k_Test](https://drive.google.com/file/d/1G5HgEUUkx8EWglvTFpZrJ5plKDqHCF9X/view?usp=sharing) | [UAV123](https://drive.google.com/file/d/1U6SnBZLMqgPqFv-Gg0TvP6dtserjo5RA/view?usp=sharing) | - | -|
 
 
 ## Evaluation
