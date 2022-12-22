@@ -25,10 +25,14 @@ Download the model [Sim-B/16](https://drive.google.com/file/d/19iSJi14yfJsi_XN5b
 python tracking/test.py simtrack baseline --dataset got10k_test --threads 32
 ```
 
+Before evaluation, please make sure the data path in [***local.py***](./lib/test/evaluation/local.py) is correct.
+
 ## Training
 ```
 python tracking/train.py --script simtrack --config baseline_got10k_only --save_dir . --mode multiple --nproc_per_node 8
 ```
+
+Before training, please make sure the data path in [***local.py***](./lib/train/admin/local.py) is correct.
 
 ## Thanks
 This implementation is based on [STARK](https://github.com/researchmm/Stark). Please ref to their reposity for more details.
