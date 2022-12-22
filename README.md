@@ -1,14 +1,10 @@
 SimTrack
 =========================================
 Official Code for [Backbone is All Your Need: A Simplified Architecture for Visual Object Tracking](https://arxiv.org/abs/2107.02960) accepted by ECCV 2022.
-This is the first version of our code.
-We initially implement SimTrack in [Pysot](https://github.com/STVIR/pysot), which is adopted by the Sensetime company. 
-There are several private distribution and data loading codes which can not be published.
-Therefore, I am changing the pipeline to the public reposity [STARK](https://github.com/researchmm/Stark).
-It will take some time to fully convert the code from [Pysot](https://github.com/STVIR/pysot) to [STARK](https://github.com/researchmm/Stark).
-For now, we first release the testing code. The training code will come as soon as possible. Thanks for your understanding!
+
 
 ## Requirements
+- python==3.8.15
 - torch==1.8.1
 - torchvision==0.9.0
 - timm==0.5.4
@@ -28,7 +24,6 @@ python tracking/test.py simtrack baseline --dataset got10k_test --threads 32
 ```
 
 ## Training
-If you are in a hurry, you can try to train a model before our final version. I think there is no tricky bug.
 ```
 python tracking/train.py --script simtrack --config baseline_got10k_only --save_dir . --mode multiple --nproc_per_node 8
 ```
