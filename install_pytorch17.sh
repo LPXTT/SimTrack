@@ -94,5 +94,20 @@ pip install timm==0.3.2
 
 echo ""
 echo ""
+echo "****************** Installing timm ******************"
+pip install timm==0.3.2
+
+echo ""
+echo ""
+echo "****************** Installing clip ******************"
+pip install clip-by-openai
+
+echo ""
+echo ""
+echo "****************** Installing yacs ******************"
+pip install yacs
+
+echo ""
+echo ""
 
 echo "****************** Installation complete! ******************"
