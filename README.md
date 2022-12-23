@@ -33,6 +33,7 @@ python tracking/train.py --script simtrack --config baseline_got10k_only --save_
 ```
 
 Before training, please make sure the data path in [***local.py***](./lib/train/admin/local.py) is correct.
+Also, please make sure there is "ViT-B/16": "https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt" in '**/anaconda3/envs/stark/lib/python3.8/site-packages/clip/clip.py'. If not, please add it manually.
 
 ## Thanks
 This implementation is based on [STARK](https://github.com/researchmm/Stark). Please ref to their reposity for more details.
